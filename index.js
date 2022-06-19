@@ -45,4 +45,4 @@ function hide(selector){
 
 
 
-// module.exports={setStyle , addEvent , hide}
+module.exports={setStyle , addEvent , hide}
