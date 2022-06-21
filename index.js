@@ -44,6 +44,8 @@ function hide(selector){
 }
 
 
-if(typeof exports === undefined){
-    exports={setStyle , addEvent , hide}
+if(typeof exports != 'undefined'){
+    exports.setStyle= setStyle 
+    exports.addEvent= addEvent 
+    exports.hide= hide
 }
