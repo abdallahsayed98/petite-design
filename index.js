@@ -44,5 +44,6 @@ function hide(selector){
 }
 
 
-
-module.exports={setStyle , addEvent , hide}
+if(typeof exports === undefined){
+    exports={setStyle , addEvent , hide}
+}
